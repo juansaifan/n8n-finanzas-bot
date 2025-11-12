@@ -9,4 +9,5 @@ ENV N8N_HOST=0.0.0.0
 
 EXPOSE 5678
 
+ENTRYPOINT ["tini", "--"]
 CMD ["n8n"]
